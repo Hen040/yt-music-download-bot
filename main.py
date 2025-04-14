@@ -10,9 +10,6 @@ import uvicorn
 from web_server import app
 import threading
 
-# נוצר ע"י @the_joker121 בטלגרם. לערוץ https://t.me/bot_sratim_sdarot
-# אל תמחק את הקרדיט הזה🥹
-# לבוט דוגמא חפש בטלגרם @Music_Yt_RoBot
 
 import os
 TOKEN = os.getenv('TOKEN')
@@ -28,7 +25,7 @@ audio_cache = {}
 active_downloads: Dict[int, Dict] = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('שלום! שלח לי שם של שיר ואחפש אותו ביוטיוב.\n\nלקבוצה שלי👇\nhttps://t.me/+LceT_sT3WK0xZmM0',
+    await update.message.reply_text('שלום! שלח לי שם של שיר ואחפש אותו ביוטיוב.\n\nלקבוצה שלי👇\nhttps://t.me/MusicDownload121',
                                   reply_to_message_id=update.message.message_id)
 
 async def search_song(update: Update, context: ContextTypes.DEFAULT_TYPE):
