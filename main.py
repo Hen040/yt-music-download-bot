@@ -255,7 +255,7 @@ async def download_and_send_song(query, bot, download_info):
         
         caption = f"🎵 שם: {clean_title}\n" \
                  f"⏱ משך: {duration}\n\n" \
-                 f"Uploaded by 
+                 
         
         with open(download_info['filename'], 'rb') as audio_file:
             cache_message = await bot.send_audio(
