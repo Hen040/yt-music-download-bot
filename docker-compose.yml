@@ -3,5 +3,5 @@ services:
   bot:
     build: .
     environment:
-      - TOKEN=your_token_here
-      - AUDIO_CACHE_CHANNEL=your_channel_id
+      - TOKEN=8132292022:AAFi1hoTNjXGeG39rhKHl1w0_T6XFTzwKlQ
+      - AUDIO_CACHE_CHANNEL=-1002298725329
