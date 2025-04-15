@@ -255,7 +255,7 @@ async def download_and_send_song(query, bot, download_info):
         
         caption = f"🎵 שם: {clean_title}\n" \
                  f"⏱ משך: {duration}\n\n" \
-                 f"Uploaded by @Music_Yt_RoBot"
+                 f"Uploaded by 
         
         with open(download_info['filename'], 'rb') as audio_file:
             cache_message = await bot.send_audio(
@@ -318,6 +318,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-# נוצר ע"י @the_joker121 בטלגרם. לערוץ https://t.me/bot_sratim_sdarot
-# אל תמחק את הקרדיט הזה🥹
-# לבוט דוגמא חפש בטלגרם @Music_Yt_RoBot
